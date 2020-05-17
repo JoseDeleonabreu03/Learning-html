@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    
+    div {
+      max-width: 500px;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%);
+      text-align: center;
+      background: #333;
+      color: white;
+      border-radius: 25px 25px 25px 0px;
+      padding: 0 10px;
+      padding-bottom: 15px;
+    }
+
+    div::before {
+      position: absolute;
+      left: -20px;
+      bottom: 0px;
+      height: 0px;
+      width: 0px;
+      border-width: 10px 20px 10px 0px;
+      border-style: solid;
+      border-color: transparent #333 transparent transparent;
+      content: "";
+    }
+  </style>
+</head>
+<body>
+  <div>
+  <h1> User: Jose De leon</h1>
+  <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum id voluptatum vero sit quod vitae ipsam quam temporibus? Doloribus, at! Rem inventore, corporis dolorem quo tenetur debitis fuga temporibus ad.</p>
+</div>
+</body>
+</html>
